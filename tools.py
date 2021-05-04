@@ -12,7 +12,7 @@ def my_count1(seq):
 
 
 def my_count2(seq):
-    print('test000')
+    print('test99999999')
     print('xx')
     """计算序列中元素出现的次数，并排序返回，seq为可迭代对象,使用Counter"""
     return sorted(Counter(seq).items(), key=lambda x: x[1])
